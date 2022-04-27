@@ -82,6 +82,8 @@ input {
     border-radius: 5px;
     padding-right: 24px;
     padding-left:8px;
+    background-color: yellow;
+    color: black;
 }
 
 
