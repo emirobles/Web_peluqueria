@@ -1,0 +1,90 @@
+body{
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23130004' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23250008' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%2338000c' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%234b0010' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%235e0014' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23700018' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%2383001C' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}    
+
+form {
+    background-color: #850000;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+    width: 400px;
+    max-width: 400%;
+    border-radius: 10px;
+    border: solid;
+    backdrop-filter: blur(10px);
+    box-shadow: #850000;
+}
+
+.form-block {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.message {
+    width: 100%;
+}
+
+.message label {
+    width: 100%;
+}
+
+textarea#mensaje {
+    width: 100%;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    float: left;
+}
+
+input {
+    word-spacing: 5px;
+    float: right;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.send-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.send-btn .send {
+    width: 100%;
+    font-family: 'Grape Nuts', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    overflow: hidden;
+}
+
+.send-btn .send:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+}
+
+
+   
+
+
