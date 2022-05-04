@@ -4,7 +4,8 @@
 }
 
 body {
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    background: linear-gradient(135deg, var(--primary), var(--secondary)), no-repeat;
+    
 }
 
 .servicio {
